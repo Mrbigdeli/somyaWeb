@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "SignIn-FormControl-Inputs";
+  src: url("../../Fonts/KoodakBold.ttf");
+}
+
+.header {
+  /* background-color: whitesmoke; */
+  background-color: #FFB534;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  padding: 10px 0;
+  width: 100%;
+  height: 100px;
+  padding: 0px;
+  direction: rtl;
+  margin: 0px auto 0px;
+  /* position: fixed; */
+}
+#HeaderPart1 {
+  width: 100%;
+  position: relative;
+  height: 75%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #999;
+  margin-top: 0px;
+}
+#HeaderPart2 {
+  width: 100%;
+  height: 25%;
+  box-sizing: border-box;
+  border: none;
+  border-top: 1px solid #999;
+  margin-top: 0px;
+}
+#HeaderPart2 ul {
+  padding: 0px;
+  margin: 0px;
+}
+.NavMenu {
+  list-style: none;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  font-family: "SignIn-FormControl-Inputs";
+  /* font-size: 12pt; */
+}
+
+#HeaderPart2 ul li {
+  margin-right: 35px;
+  font-size: 13pt;
+}
+.HeaderPart2-NavMenu-li {
+  text-decoration: none;
+  color: black;
+}
+
+.HeaderPart2-NavMenu-li:hover {
+  color: gold;
+}
+#HeaderPart1-Logo {
+  width: 75px;
+  position: absolute;
+  margin-right: 35px;
+  display: inline;
+}
+#HeaderPart1-ContctNum {
+  position: absolute;
+  left: 30px;
+  top: 5px;
+  width: auto;
+}
+#HeaderPart1-BuyCart {
+  position: absolute;
+  left: 30px;
+  top: 45px;
+  width: auto;
+  color: black;
+}
+#HeaderPart1-BuyCart p {
+  margin: 0px;
+}
+#HeaderPart1-BuyCart p:hover {
+  color: gold;
+  cursor: pointer;
+}
+#HeaderPart1-SignInSignUp {
+  position: absolute;
+  left: 75px;
+  top: 45px;
+  width: auto;
+  color: black;
+  width: auto;
+}
+#HeaderPart1-SignInSignUp p {
+  margin: 0px;
+}
+#HeaderPart1-SignInSignUp p:hover {
+  color: gold;
+  cursor: pointer;
+}
+#HeaderPart1-ContctNum p {
+  display: inline-block;
+  color: #999;
+  margin: 0px;
+}
+#HeaderPart1-ContctNum p:hover {
+  color: black;
+  cursor: pointer;
+}
