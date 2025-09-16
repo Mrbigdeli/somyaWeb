@@ -1,111 +1,67 @@
+* {
+  box-sizing: border-box;
+}
 @font-face {
-  font-family: "SignIn-FormControl-Inputs";
-  src: url("../../Fonts/KoodakBold.ttf");
+  font-family: "Recoleta";
+  src: url(../../assets/fonts/Recoleta/Recoleta-RegularDEMO.otf);
 }
-
-.header {
-  /* background-color: whitesmoke; */
-  background-color: #FFB534;
+.menuParent {
+  width: 100vw;
+  height: 20vh;
+  background-color: bisque;
+}
+#MenuInfo {
+  width: 100%;
+  height: 32%;
+  background-color: white;
   display: flex;
-  flex-direction: column;
-  color: #fff;
-  padding: 10px 0;
-  width: 100%;
-  height: 100px;
-  padding: 0px;
-  direction: rtl;
-  margin: 0px auto 0px;
-  /* position: fixed; */
+  justify-content: space-between;
+  align-items: center;
 }
-#HeaderPart1 {
-  width: 100%;
-  position: relative;
-  height: 75%;
-  box-sizing: border-box;
-  border: none;
-  border-bottom: 1px solid #999;
-  margin-top: 0px;
+#MenuInfo-Left {
+  width: 60%;
+  height: 100%;
+  /* background-color: black; */
 }
-#HeaderPart2 {
-  width: 100%;
-  height: 25%;
-  box-sizing: border-box;
-  border: none;
-  border-top: 1px solid #999;
-  margin-top: 0px;
-}
-#HeaderPart2 ul {
-  padding: 0px;
-  margin: 0px;
-}
-.NavMenu {
-  list-style: none;
+#MenuInfo-Right {
+  width: 25%;
+  height: 100%;
+  /* background-color: black; */
   display: flex;
-  list-style: none;
-  justify-content: center;
-  font-family: "SignIn-FormControl-Inputs";
-  /* font-size: 12pt; */
+  justify-content: stretch;
+  align-items: center;
 }
-
-#HeaderPart2 ul li {
-  margin-right: 35px;
-  font-size: 13pt;
+#MenuInfo-Right-Socials {
+  width: 55%;
+  height: 50%;
+  /* background-color: aqua; */
+  border-left: 0.3px solid black;
+  display: flex;
+  justify-content: space-around;
 }
-.HeaderPart2-NavMenu-li {
-  text-decoration: none;
-  color: black;
+#MenuInfo-Right-MyAccount {
+  width: 45%;
+  height: 50%;
+  font-size: 10pt;
+  font-family: "Recoleta";
+  /* background-color: aqua; */
 }
-
-.HeaderPart2-NavMenu-li:hover {
-  color: gold;
+.socials-group-class {
+  width: 7.5%;
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-#HeaderPart1-Logo {
-  width: 75px;
-  position: absolute;
-  margin-right: 35px;
-  display: inline;
+#telegram-social {
+  background-image: url(../../assets/pictures/telegram.png);
 }
-#HeaderPart1-ContctNum {
-  position: absolute;
-  left: 30px;
-  top: 5px;
-  width: auto;
+#whatsapp-social {
+  background-image: url(../../assets/pictures/whatsapp.png);
 }
-#HeaderPart1-BuyCart {
-  position: absolute;
-  left: 30px;
-  top: 45px;
-  width: auto;
-  color: black;
+#instagram-social {
+  background-image: url(../../assets/pictures/insta.png);
 }
-#HeaderPart1-BuyCart p {
-  margin: 0px;
-}
-#HeaderPart1-BuyCart p:hover {
-  color: gold;
-  cursor: pointer;
-}
-#HeaderPart1-SignInSignUp {
-  position: absolute;
-  left: 75px;
-  top: 45px;
-  width: auto;
-  color: black;
-  width: auto;
-}
-#HeaderPart1-SignInSignUp p {
-  margin: 0px;
-}
-#HeaderPart1-SignInSignUp p:hover {
-  color: gold;
-  cursor: pointer;
-}
-#HeaderPart1-ContctNum p {
-  display: inline-block;
-  color: #999;
-  margin: 0px;
-}
-#HeaderPart1-ContctNum p:hover {
-  color: black;
-  cursor: pointer;
+#linkedin-social {
+  background-image: url(../../assets/pictures/linkedin.png);
 }
