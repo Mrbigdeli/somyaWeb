@@ -22,6 +22,7 @@
   width: 60%;
   height: 100%;
   /* background-color: black; */
+  border: 1px solid black;
 }
 #MenuInfo-Right {
   width: 25%;
