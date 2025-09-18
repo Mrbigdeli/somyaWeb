@@ -5,6 +5,10 @@
   font-family: "Recoleta";
   src: url(../../assets/fonts/Recoleta/Recoleta-RegularDEMO.otf);
 }
+@font-face {
+  font-family: "league";
+  src: url(../../assets/fonts/League_spartan/LeagueSpartan-Regular.ttf);
+}
 .menuParent {
   width: 100vw;
   height: 30vh;
@@ -48,8 +52,8 @@
   height: 50%;
   padding-top: 7px;
   font-size: 10pt;
-  font-family: "Recoleta";
-  /* background-color: aqua; */
+  font-family: "league";
+  letter-spacing: 1.5px;
 }
 .socials-group-class {
   width: 7.5%;
@@ -82,6 +86,7 @@
   margin-left: 2px;
   font-family: sans-serif;
   font-size: 12px;
+  font-family: "league";
   /* font-family: "League Spartan"; */
 }
 #MainMenu {
@@ -110,6 +115,7 @@
   font-weight: 500;
   font-family: sans-serif;
   color: #0a0102;
+  font-family: "league";
 }
 #MainMenu-Section-Right {
   width: 20%;
@@ -134,6 +140,7 @@
   align-items: center;
   /* padding: 10px; */
 }
-#DiscountMenu p {
-  font-size: 12px;
+#DiscountMenu {
+  font-size: 14px;
+  font-family: "league";
 }
