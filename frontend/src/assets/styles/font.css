@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "league";
+    src: url(../fonts/League_spartan/LeagueSpartan-Regular.ttf);
+}
+.font-league {
+    font-family: "league";
+}

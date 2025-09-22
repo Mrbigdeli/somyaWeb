@@ -12,6 +12,7 @@
 .menuParent {
   width: 100vw;
   height: 30vh;
+  min-height: 190px;
   /* background-color: bisque; */
 }
 #MenuInfo {
